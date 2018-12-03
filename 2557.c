@@ -1,7 +1,7 @@
-/**
- * File : 2557.c
- * Author : ÀÓÇö (hyunzion@gmail.com)
- * Since : 2018 - 12 - 04
+ï»¿/**
+* File : 2557.c
+* Author : ìž„í˜„ (hyunzion@gmail.com)
+* Since : 2018 - 12 - 04
 */
 
 #include <stdio.h>
