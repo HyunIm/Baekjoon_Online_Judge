@@ -15,7 +15,7 @@ int main(void)
 
 	scanf("%d %d", &n, &x);
 
-	arr = malloc(sizeof(int) * n);
+	arr = (int *)malloc(sizeof(int) * n);
 
 	for (i = 0; i < n; i++)
 	{
