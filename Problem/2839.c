@@ -1,45 +1,34 @@
 ﻿/**
-* File : 2839.c
-* Author : 임현 (hyunzion@gmail.com)
-* Since : 2018 - 12 - 07
+ * File : 2839.c
+ * Author : 임현 (hyunzion@gmail.com)
+ * Since : 2018 - 12 - 07
 */
 
 #include <stdio.h>
 
-void Delivery(int sugar);
-
 int main(void)
 {
+	int i;
 	int sugar;
+	int three = 0;
+	int five = -1;
 
 	scanf("%d", &sugar);
 
-	Delivery(sugar);
-
-	return 0;
-}
-
-void Delivery(int sugar)
-{
-	int i;
-	int five, three;	// 5킬로그램 봉지, 3킬로그램 봉지
-	int flag = -1;	// 해결 할 수 없는 경우의 수 체크
-
 	for (i = sugar / 5; i >= 0; i--)
 	{
-		if ((sugar - (5 * i)) % 3 == 0)	// 5킬로그램 봉지로 최대한 채운 뒤 3킬로그램 봉지 빼기
+		if ((sugar - (5 * i)) % 3 == 0)
 		{
 			five = i;
-			three = ((sugar - (5 * five)) / 3);
-			printf("%d\n", five + three);
+			three = (sugar - (5 * i)) / 3;
 
-			flag = 1;	// 해결 되는 경우
 			break;
 		}
 	}
 
-	if (flag == -1)	// 해결 불가능한 경우
-		printf("-1\n");
+	printf("%d\n", three + five);
+
+	return 0;
 }
 
 /*
