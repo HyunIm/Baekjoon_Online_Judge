@@ -34,5 +34,7 @@ int main(void)
 
 	printf("%.2f\n", sum);
 
+	free(arr);
+
 	return 0;
 }
