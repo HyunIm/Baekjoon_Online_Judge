@@ -1,7 +1,7 @@
 ﻿/**
  * File : 2750.c
  * Author : 임현 (hyunzion@gmail.com)
- * Since : 2019 - 02 - 02
+ * Since : 2019 - 02 - 03
 */
 
 #include <stdio.h>
@@ -35,6 +35,8 @@ int main(void)
 
 	for (i = 0; i < n; i++)
 		printf("%d\n", arr[i]);
+
+	free(arr);
 
 	return 0;
 }
