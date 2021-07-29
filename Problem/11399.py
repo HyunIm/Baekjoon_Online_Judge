@@ -1,4 +1,4 @@
-# File : 1931.py
+# File : 11399.py
 # Dev : LimHyun (hyunzion@gmail.com)
 # Since : 2021-07-27
 # Brief : 그리디
