@@ -1,0 +1,9 @@
+x = float(input())
+
+GALON2LITER = 3.785411784
+MILE2METER = 1609.344
+MILE2KILO = MILE2METER / 1000
+
+result = 100 / ((MILE2KILO / GALON2LITER) * x)
+
+print('%.6f'%result)
