@@ -4,7 +4,7 @@
 <br>
 <div align="center">
   <a href="https://www.acmicpc.net/">
-    <img src="image/boj.png" alt="Logo" width="282" height="64">
+    <img src="image/boj.png" alt="Logo">
   </a>
   
   <h3 align="center"> 🧑🏻‍💻 백준 온라인 저지 </h3>
