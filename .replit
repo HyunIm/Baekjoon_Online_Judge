@@ -1,2 +1,2 @@
-language = "bash"
 run = "python Problem/_main.py"
+entrypoint = "main.sh"
